@@ -68,30 +68,6 @@ def main():
     message1 = Text(Point(600,400), "")    
     
     while True:
-        
-        ##Create a graphics window with game introduction at the top of the screen
-        #win = GraphWin("Hangman Game", 900, 720) 
-        #win.setBackground("grey")
-    
-        ##Introductory text
-        #message = Text(Point(600, 56), "Summer Calculator")
-        #message.setSize(20)
-        #message.setFace("courier")
-        #message.setStyle("bold")
-        #message.setTextColor('black')
-        #message.draw(win)
-    
-        ##Draw button to the window
-        #button = Text(Point(600, 300), "Continue")
-        #button.draw(win)
-        #button = Text(Point(400, 300), "Click to start")
-        #button.draw(win)
-        #Rectangle(Point(700, 350), Point(500, 250)).draw(win) 
-        
-        ##Get input from user
-        #inputBox = Entry(Point(600,400), 50)
-        #inputBox.draw(win)
-        
         def sin(x):
             sn = math.sin((math.radians(int(x))))
             return sn
